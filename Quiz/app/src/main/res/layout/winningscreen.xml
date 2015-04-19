@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CONGRATULATIONS!!!"
+        android:textColor="@color/yellow"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="We hope you enjoyed the challenge! you now know all the answers, but for how long? The answers for these questions are constantly changing based on real world values, so see how well you do, a day, a week or even a month later. For more info on how this was designed, check out Bloomberg's API by clicking the link below"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/textView5"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20sp"
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        android:text="More on Bloomberg API"
+        android:textSize="20sp"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp" />
+
+
+</RelativeLayout>

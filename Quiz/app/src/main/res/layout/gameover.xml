@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="GAME OVER"
+        android:textColor="@color/yellow"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:textColor="@color/yellow"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SCORE: 0"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/textView5"/>
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:textColor="@color/yellow"
+        android:layout_below="@id/textView5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@+id/textView6"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20sp"
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        android:text="Play Again?"
+        android:textSize="20sp"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Risor</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="black">#000000</color>
+    <color name="green">#ff31ff04</color>
+    <color name="yellow">#ffffb329</color>
+    <color name="red">#ffff350c</color>
+</resources>

@@ -1,0 +1,12 @@
+{
+    "securities": [
+        "FB US Equity",
+        "SBUX UW Equity",
+        "RL UN Equity",
+        "GOOG UW Equity"
+    ],
+    "fields": [
+        "CUR_EMPLOYEES",
+        "DS002"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "securities": [
+        "UKITJBI Index",
+        "UKITC# Index",
+        "UKITC++ Index",
+        "UKITCSS Index",
+        "UKITDBA Index",
+        "UKITJJVS Index",
+        "UKITJLNX Index",
+        "UKITJMDW Index",
+        "UKITJMOB Index",
+        "UKITJMSQ Index",
+        "UKITJORA Index",
+        "UKITJPHP Index",
+        "UKITJASP Index",
+        "UKITJSQL Index",
+        "UKITJWEB Index"
+    ],
+    "fields": [
+        "PX_LAST",
+        "DS520"
+    ]
+}
